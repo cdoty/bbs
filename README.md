@@ -1,7 +1,7 @@
-Node.JS BBS
+Node.js BBS
 ===
 
-This is a 90's style BBS program written in Node.JS.
+Node.js BBS is a 90's style BBS program written in Node.js. Almost all aspects of the system can be customized through a set of JSON files.
 
 <p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#" style="text-align=center">
   <a rel="license"
