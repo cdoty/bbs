@@ -1,0 +1,6 @@
+{
+	"connect": "Connect.ansi",
+	"welcome": "Welcome.ansi",
+	"mainMenu": "MainMenu.ansi",
+	"logOff": "LogOff.ansi"
+}

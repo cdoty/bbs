@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Data Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Data Files\Screens">
+      <UniqueIdentifier>{06508d56-14dd-4579-96b6-d857a37480aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Files\Settings">
+      <UniqueIdentifier>{b796e848-1123-4347-994b-f9c1488033c1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BBS.js">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Connect.js">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Login.js">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="LogOff.js">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MainMenu.js">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Markup.js">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Modules.js">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="NewUser.js">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Screens.js">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Settings.js">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Strings.js">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="UserManager.js">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Utilities.js">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Welcome.js">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Screens\Connect.ansi">
+      <Filter>Data Files\Screens</Filter>
+    </None>
+    <None Include="Screens\LogOff.ansi">
+      <Filter>Data Files\Screens</Filter>
+    </None>
+    <None Include="Screens\MainMenu.ansi">
+      <Filter>Data Files\Screens</Filter>
+    </None>
+    <None Include="Screens\Welcome.ansi">
+      <Filter>Data Files\Screens</Filter>
+    </None>
+    <None Include="Settings\MainMenu.json">
+      <Filter>Data Files\Settings</Filter>
+    </None>
+    <None Include="Settings\Modules.json">
+      <Filter>Data Files\Settings</Filter>
+    </None>
+    <None Include="Settings\Screens.json">
+      <Filter>Data Files\Settings</Filter>
+    </None>
+    <None Include="Settings\Settings.json">
+      <Filter>Data Files\Settings</Filter>
+    </None>
+    <None Include="Settings\Strings.json">
+      <Filter>Data Files\Settings</Filter>
+    </None>
+  </ItemGroup>
+</Project>

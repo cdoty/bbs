@@ -1,0 +1,9 @@
+{
+	"maxLoginAttempts": "3",
+	"minPasswordLength": "3",
+	"mongoHostName": "127.0.0.1",
+	"mongoPort": "27017",
+	"mongoDatabaseName": "bbs",
+	"mongoUserName": "",
+	"mongoPassword": ""
+}

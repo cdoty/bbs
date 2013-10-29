@@ -1,0 +1,21 @@
+{
+	"newUsername": "new",
+	"newUserMessage": "Enter 'new' for new user.",
+	"usernamePrompt": "User Name: ",	
+	"passwordPrompt": "Password: ",
+	"newUsernamePrompt": "Enter a User Name: ",	
+	"checkingUserNameMessage": "Checking User Name...",
+	"userNameError": "User Name unavailable, please choose a different one.",
+	"newPasswordPrompt": "Enter a Password: ",
+	"reenterPasswordPrompt": "Re-enter the Password: ",
+	"passwordMatchError": "Password don't match. Please re-enter password.",
+	"invalidUserNameError": "Invalid User Name.",
+	"passwordLengthError": "Password too short.",
+	"invalidPasswordError": "Invalid Password.",
+	"invalidLoginMessage": "Invalid User Name or Password.",
+	"addUserError": "Unable to add user, please try again.",
+	"mainMenuPrompt": "Main Menu: ",
+	"logOffPrompt": "Log Off? (Y/N): ",
+	"goodByeMessage": "Good bye %UN!",
+	"maxLoginsError": "Maximum login attempts exceeded."
+}

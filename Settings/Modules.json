@@ -1,0 +1,8 @@
+{
+	"connect": "Connect",	
+	"login": "Login",
+	"newUser": "NewUser",
+	"welcome": "Welcome",
+	"preMenu": "",
+	"mainMenu": "MainMenu"
+}
