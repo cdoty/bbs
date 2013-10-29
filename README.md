@@ -3,7 +3,7 @@ Node.js BBS
 
 Node.js BBS is a 90's style BBS program written in Node.js. Almost all aspects of the system can be customized through a set of JSON files.
 
-<p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#" style="text-align=center">
+<p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#" style="align=center">
   <a rel="license"
      href="http://creativecommons.org/publicdomain/zero/1.0/">
     <img src="http://i.creativecommons.org/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" />
