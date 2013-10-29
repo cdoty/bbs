@@ -25,11 +25,12 @@ strings.load();
 userManager.load();
 
 // Create the server
-var server  = net.createServer(connectFunction).listen(2300, function()
+var server  = net.createServer(connectFunction).listen(settings.getSetting("bbsPort"), function()
 {
-	console.log("Server started\n");
+	console.log("Server started on port " + settings.getSetting("bbsPort") + "\n");
 });
 
+// Handle connection
 function connectFunction(_socket)
 {
 	console.log("User connected\n");
@@ -47,6 +48,7 @@ function connectFunction(_socket)
 		connectComplete();
 	}
 
+	// Functions nested to use share _socket parameter
 	function connectComplete()
 	{
 		if (true == modules.isModuleValid("login"))
