@@ -23,8 +23,8 @@ function load()
 	
 	// Create mongo db
 	m_mongodb	= new mongo.Db(settings.getSetting("mongoDatabaseName"),
-		new mongo.Server(settings.getSetting("mongoHostName"), settings.getSetting("mongoPort"), {auto_reconnect: true}),
-		{});
+		new mongo.Server(settings.getSetting("mongoHostName"), settings.getSetting("mongoPort"), {auto_reconnect:true}),
+		{safe:false});
 
 	// Open a connection to the database
 	openDatabase();

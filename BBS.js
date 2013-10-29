@@ -25,29 +25,26 @@ strings.load();
 userManager.load();
 
 // Create the server
-var server  = net.createServer(connection).listen(2300);
-
-console.log("Server started\n");
-
-function connection(_socket)
+var server  = net.createServer(connectFunction).listen(2300, function()
 {
-	_socket.addListener("connect", connectFunction);
-	_socket.addListener("end", endFunction);
+	console.log("Server started\n");
+});
 
-	function connectFunction()
+function connectFunction(_socket)
+{
+	console.log("User connected\n");
+	
+	_socket.on('end', endFunction);
+
+	if (true == modules.isModuleValid("connect"))
 	{
-		console.log("User connected\n");
-		
-		if (true == modules.isModuleValid("connect"))
-		{
-			// Show connect screen
-			modules.getModule("connect").enter(_socket, connectComplete);
-		}
-		
-		else
-		{
-			connectComplete();
-		}
+		// Show connect screen
+		modules.getModule("connect").enter(_socket, connectComplete);
+	}
+	
+	else
+	{
+		connectComplete();
 	}
 
 	function connectComplete()
@@ -96,7 +93,7 @@ function connection(_socket)
 			preMenuComplete();
 		}
 	}
-	
+
 	function preMenuComplete()
 	{
 		if (true == modules.isModuleValid("mainMenu"))
@@ -114,7 +111,7 @@ function connection(_socket)
 			mainMenu.enter(_socket);
 		}
 	}
-	
+
 	function endFunction()
 	{
 		utilities.disconnect(_socket);

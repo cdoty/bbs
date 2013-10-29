@@ -32,14 +32,21 @@ function enter(_socket)
 
 	function handleInput(_strInput)
 	{
-		if (true == isItemValid(_strInput.toString().toLowerCase()))
+		var	command	= _strInput.toString().toLowerCase();
+
+		if (true == isItemValid(command))
 		{
 			// Display the input
-			utilities.displayUnencodedString(_socket, _strInput.toString().toUpperCase(), false);
+			utilities.displayUnencodedString(_socket, command.toUpperCase(), false);
 			utilities.displayBlankLine(_socket);
 		
 			// Launch the module
-			getItem(_strInput).enter(_socket, showMenu)
+			var	module	= getItem(command);
+
+			if (module != null)
+			{
+				module.enter(_socket, showMenu);
+			}
 		}
 	
 		else
