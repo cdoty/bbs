@@ -41,6 +41,7 @@ function displayFile(_socket, _file, _completeFunction)
 		else
 		{
 			_socket.write(data);
+			_socket.write("\r\n");
 		}
 
 		_completeFunction();
